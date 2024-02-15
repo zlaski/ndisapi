@@ -278,6 +278,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\common\ndisapi\fastio_packet_filter.h" />
+    <ClInclude Include="..\common\netinet\if_ether.h" />
+    <ClInclude Include="..\common\netinet\in.h" />
+    <ClInclude Include="..\common\netinet\ip.h" />
+    <ClInclude Include="..\common\netinet\ip6.h" />
+    <ClInclude Include="..\common\netinet\tcp.h" />
     <ClInclude Include="..\common\pcap\pcap.h" />
     <ClInclude Include="..\common\pcap\pcap_file_storage.h" />
     <ClInclude Include="pch.h" />

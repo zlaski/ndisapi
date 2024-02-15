@@ -22,6 +22,9 @@
     <Filter Include="Header Files\common\pcap">
       <UniqueIdentifier>{f8f844ac-af18-47de-9cc8-a3859a76d08b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\common\netinet">
+      <UniqueIdentifier>{058c104b-da54-4cd1-b58d-ec1d597e7a93}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -35,6 +38,21 @@
     </ClInclude>
     <ClInclude Include="..\common\pcap\pcap_file_storage.h">
       <Filter>Header Files\common\pcap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\netinet\if_ether.h">
+      <Filter>Header Files\common\netinet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\netinet\in.h">
+      <Filter>Header Files\common\netinet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\netinet\ip.h">
+      <Filter>Header Files\common\netinet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\netinet\ip6.h">
+      <Filter>Header Files\common\netinet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\netinet\tcp.h">
+      <Filter>Header Files\common\netinet</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
